@@ -2724,11 +2724,30 @@
 									"model": {
 										"$ref": "AAAAAAFnG7VayJIZKFQ="
 									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFnG7lkoQ1agoE=",
+											"_parent": {
+												"$ref": "AAAAAAFnG7VayJIhRyE="
+											},
+											"model": {
+												"$ref": "AAAAAAFnG7lkjQ1OdgE="
+											},
+											"font": "Arial;13;0",
+											"left": 1109,
+											"top": 838,
+											"width": 342,
+											"height": 13,
+											"text": "+testtest: string",
+											"horizontalAlignment": 0
+										}
+									],
 									"font": "Arial;13;0",
 									"left": 1104,
 									"top": 833,
 									"width": 352,
-									"height": 10
+									"height": 23
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -2741,7 +2760,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 1104,
-									"top": 843,
+									"top": 856,
 									"width": 352,
 									"height": 10
 								},
@@ -3278,7 +3297,18 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "test"
+					"name": "test",
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFnG7lkjQ1OdgE=",
+							"_parent": {
+								"$ref": "AAAAAAFnG7VayJIZKFQ="
+							},
+							"name": "testtest",
+							"type": "string"
+						}
+					]
 				}
 			]
 		}
